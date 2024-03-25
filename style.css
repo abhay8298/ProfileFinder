@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #26385a; /* Primary blue color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #5d7ebb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    width: calc(33.33% - 20px); /* Adjusted width to accommodate margin */
+    margin: 0 10px 20px 10px; /* Added margin to create gaps between cards */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #c9d4e8;
+    border-radius: 4px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a5b7d9;
+    color: #1b1b1d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #819bca;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #a5b7d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card h2,
+.card img,
+.card ul {
+    margin-bottom: 10px;
+}
+.card ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.card ul li {
+    margin-bottom: 5px;
+}
+.card ul li a {
+    color: #0366d6;
+    text-decoration: none;
+}
+.card ul li a:hover {
+    text-decoration: underline;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card:last-child {
+    margin-right: 0; /* Remove margin for the last card in a row */
+}
+
+
+.repo-link {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.repo-link:hover {
+    text-decoration: underline;
+}
+
+/* Additions for hover effect */
+
+
+
+/* Modifications for layout */
+
+.profile-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    .profile-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .card:last-child {
+        margin-right: 20px; /* Restore margin for the last card in a column */
+    }
+}
+
