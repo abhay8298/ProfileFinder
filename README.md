@@ -7,3 +7,6 @@ This project is a GitHub profile search application built using HTML, CSS, and J
 The application features a clean and user-friendly interface, with responsive design elements to ensure optimal viewing on various devices. It utilizes asynchronous JavaScript to handle API requests and dynamically update the UI with the retrieved user data.
 
 Overall, this project serves as a practical example of how to interact with external APIs, fetch and display data dynamically, and create a simple yet functional web application for searching and viewing GitHub profiles.
+
+API Used in this project
+The project utilizes the GitHub REST API for fetching user profiles and repository data. This API provides endpoints for searching users based on usernames and retrieving detailed information about users, including their avatars, profile URLs, and repositories. By integrating this API into the project, users can seamlessly access and explore GitHub profiles directly from the application interface.
